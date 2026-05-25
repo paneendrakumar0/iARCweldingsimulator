@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="Weld_Workpiece_A4" size="0.297000 0.209979"/>
+        <ImageTarget name="workpiece" size="0.123000 0.030067"/>
+        <ImageTarget name="screenshot2026-05-15160228" size="0.050000 0.050000"/>
+        <ImageTarget name="Miller_Nozzle.Left" size="0.026600 0.079800"/>
+        <ImageTarget name="Miller_Nozzle.Front" size="0.026600 0.079800"/>
+        <ImageTarget name="Miller_Nozzle.Right" size="0.026600 0.079800"/>
+        <ImageTarget name="Miller_Nozzle.Top" size="0.026600 0.026600"/>
+        <ImageTarget name="Miller_Nozzle.Bottom" size="0.026600 0.026600"/>
+        <ImageTarget name="Miller_Nozzle.Back" size="0.026600 0.079800"/>
+        <ImageTarget name="Welding_Gun_Nozzle.Left" size="0.026600 0.039561"/>
+        <ImageTarget name="Welding_Gun_Nozzle.Front" size="0.026600 0.039561"/>
+        <ImageTarget name="Welding_Gun_Nozzle.Right" size="0.026600 0.039561"/>
+        <ImageTarget name="Welding_Gun_Nozzle.Back" size="0.026600 0.039561"/>
+        <MultiTarget name="Miller_Nozzle">
+            <Part name="Miller_Nozzle.Left" translation="-0.013299999758601189 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="Miller_Nozzle.Right" translation="0.013299999758601189 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="Miller_Nozzle.Front" translation="0 0 0.013299999758601189" rotation="AD: 1 0 0 0"/>
+            <Part name="Miller_Nozzle.Back" translation="0 0 -0.013299999758601189" rotation="AD: 0 1 0 180"/>
+            <Part name="Miller_Nozzle.Top" translation="0 0.039900001138448715 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="Miller_Nozzle.Bottom" translation="0 -0.039900001138448715 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="Welding_Gun_Nozzle">
+            <Part name="Welding_Gun_Nozzle.Left" translation="-0.013299999758601189 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="Welding_Gun_Nozzle.Right" translation="0.013299999758601189 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="Welding_Gun_Nozzle.Front" translation="0 0 0.013299999758601189" rotation="AD: 1 0 0 0"/>
+            <Part name="Welding_Gun_Nozzle.Back" translation="0 0 -0.013299999758601189" rotation="AD: 0 1 0 180"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
